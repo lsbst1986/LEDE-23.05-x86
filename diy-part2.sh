@@ -14,7 +14,7 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/luci2/bin/config_generate
-# sed -i 's/KERNEL_PATCHVER:=6.6/KERNEL_PATCHVER:=6.12/g' target/linux/x86/Makefile
+sed -i 's/KERNEL_PATCHVER:=6.6/KERNEL_PATCHVER:=6.12/g' target/linux/x86/Makefile
 sed -i 's/LEDE/CncTion/g' package/base-files/files/bin/config_generate
 sed -i 's/LEDE/CncTion/g' package/base-files/luci2/bin/config_generate
 #sed -i "s/.*PKG_VERSION:=.*/PKG_VERSION:=4.3.9_v1.2.14/" package/lean/qBittorrent-static/Makefile
