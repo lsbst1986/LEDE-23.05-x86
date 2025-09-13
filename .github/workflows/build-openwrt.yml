@@ -22,7 +22,7 @@ on:
     #types: started
     
   schedule:
-     - cron: 0 4 * * *
+     - cron: 0 2 * * *
     
   
 env:
