@@ -23,6 +23,7 @@ rm -rf package/helloworld
 git clone --depth=1 -b main https://github.com/sbwml/openwrt_helloworld package/luci-app-ssr-plus
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 
 cat>delete.sh<<-\EOF
 #!/bin/bash
